@@ -6,6 +6,8 @@ export default new OptionsSync({
 		colorGreen: 67,
 		colorBlue: 54,
 		text: 'Set a text!',
+		word: 'releases',
+		replacer: 'shmeleases'
 	},
 	migrations: [
 		OptionsSync.migrations.removeUnused,
